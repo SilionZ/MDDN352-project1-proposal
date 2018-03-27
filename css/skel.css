@@ -1,0 +1,40 @@
+
+	*, *:before, *:after {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+/* Container */
+
+	body {
+		/* min-width: (containers) */
+		min-width: 51em;
+	}
+
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		
+		/* width: (containers) */
+		width: 51em;
+	}
+
+	/* Modifiers */
+	
+		.container.small {
+			/* width: (containers) * 0.75; */
+			width: 38.25em;
+		}
+
+		.container.large {
+			width: 100%;
+
+			/* max-width: (containers) * 1.25; */
+			max-width: 63.75em;
+
+			/* min-width: (containers); */
+			min-width: 51em;
+		}
+
+
